@@ -1,0 +1,1 @@
+print("Red Apple \rPine")
