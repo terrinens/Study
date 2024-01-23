@@ -1,4 +1,4 @@
-package Softeer.Lv1;
+package Softeer.Lv1.Clear;
 
 import java.util.Scanner;
 

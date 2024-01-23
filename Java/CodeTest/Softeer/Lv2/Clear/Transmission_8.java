@@ -1,4 +1,4 @@
-package Softeer.Lv2;
+package Softeer.Lv2.Clear;
 
 import java.util.*;
 import java.util.function.Supplier;
