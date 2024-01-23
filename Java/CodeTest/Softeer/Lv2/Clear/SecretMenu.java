@@ -6,6 +6,14 @@ import java.util.function.Function;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
+/**
+ * 비밀 메뉴
+ * <a href="https://softeer.ai/practice/6269"></a>
+ * 이 문제에 의문점이 존재한다. 첫번째 라인에서 입력 받는것을 M, N, K로 규정하고 있는데
+ * K요소는 각 정수의 이하값을 나타내기 위해 사용된다.
+ * 하지만 K요소로 제한을 두지 않아도 테스트가 통과된다.
+ * 그러므로 K요소를 사용하지 않았다.
+ */
 public class SecretMenu {
 
     public static void main(String[] args) {
