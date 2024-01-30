@@ -1,7 +1,106 @@
-# Created by https://www.toptal.com/developers/gitignore/api/java,python,kotlin,rust,windows,linux,visualstudio,visualstudiocode,intellij+all
-# Edit at https://www.toptal.com/developers/gitignore?templates=java,python,kotlin,rust,windows,linux,visualstudio,visualstudiocode,intellij+all
+# Created by https://www.toptal.com/developers/gitignore/api/java,python,c,c++,rust,kotlin,jetbrains+all,windows,linux,visualstudio,visualstudiocode
+# Edit at https://www.toptal.com/developers/gitignore?templates=java,python,c,c++,rust,kotlin,jetbrains+all,windows,linux,visualstudio,visualstudiocode
 
-### Intellij+all ###
+### C ###
+# Prerequisites
+*.d
+
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Linker output
+*.ilk
+*.map
+*.exp
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Kernel Module Compile Results
+*.mod*
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf
+
+### C++ ###
+# Prerequisites
+
+# Compiled Object files
+*.slo
+
+# Precompiled Headers
+
+# Compiled Dynamic libraries
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+
+# Executables
+
+### Java ###
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+replay_pid*
+
+### JetBrains+all ###
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio, WebStorm and Rider
 # Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
 
@@ -11,7 +110,6 @@
 .idea/**/usage.statistics.xml
 .idea/**/dictionaries
 .idea/**/shelf
-**/.idea
 
 # AWS User-specific
 .idea/**/aws.xml
@@ -81,7 +179,7 @@ fabric.properties
 # Android studio 3.1+ serialized cache file
 .idea/caches/build_file_checksums.ser
 
-### Intellij+all Patch ###
+### JetBrains+all Patch ###
 # Ignore everything but code style settings and run configurations
 # that are supposed to be shared within teams.
 
@@ -89,32 +187,6 @@ fabric.properties
 
 !.idea/codeStyles
 !.idea/runConfigurations
-
-### Java ###
-# Compiled class file
-*.class
-
-# Log file
-*.log
-
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
-*.jar
-*.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
-
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-replay_pid*
 
 ### Kotlin ###
 # Compiled class file
@@ -151,7 +223,6 @@ __pycache__/
 *$py.class
 
 # C extensions
-*.so
 
 # Distribution / packaging
 .Python
@@ -328,7 +399,6 @@ Cargo.lock
 **/*.rs.bk
 
 # MSVC Windows builds of rustc generate these, which store debugging information
-*.pdb
 
 ### VisualStudioCode ###
 .vscode/*
@@ -450,11 +520,8 @@ StyleCopReport.xml
 *_i.c
 *_p.c
 *_h.h
-*.ilk
 *.meta
-*.obj
 *.iobj
-*.pch
 *.ipdb
 *.pgc
 *.pgd
@@ -761,4 +828,4 @@ FodyWeavers.xsd
 ### VisualStudio Patch ###
 # Additional files built by Visual Studio
 
-# End of https://www.toptal.com/developers/gitignore/api/java,python,kotlin,rust,windows,linux,visualstudio,visualstudiocode,intellij+all
+# End of https://www.toptal.com/developers/gitignore/api/java,python,c,c++,rust,kotlin,jetbrains+all,windows,linux,visualstudio,visualstudiocode
